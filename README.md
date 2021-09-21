@@ -33,7 +33,7 @@ npm install
 npm run dev
 ```
 
-5 - aplikasi akan berjalan pada port 3000, buka port pada browser, maka aplikasi akan berjalan dilokal komputer-mu.
+5 - aplikasi akan berjalan pada port 3000, buka port tersebut untuk menjalankan aplikasi dibrowser pada browser.
 atau salin teks dibawah ini
 
 ```zsh
