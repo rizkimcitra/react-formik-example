@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  * {
+    @apply transition-all duration-200;
+  }
+  body {
+    @apply bg-indigo-50 overflow-x-hidden;
+  }
+}
