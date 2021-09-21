@@ -36,7 +36,11 @@ export default function Signup() {
           agreement: false,
         }}
         // set the validation schema, we will use from the Yup we assigned to the variable `validate` before
-        validationSchema={validate}>
+        validationSchema={validate}
+        // Log value dari setiap input(ini hanya untuk komputer, dan untuk mobile kemungkinan perlu menggunakan plugin browser tambahan untuk mengakses console pada browser)
+        onSubmit={(values) => {
+          console.log(values)
+        }}>
         {(formik) => (
           // create the form tag manually? no, but instead, use `Form` fn from formik so formik can handle what's happen!
           <Form className={classes.form}>
