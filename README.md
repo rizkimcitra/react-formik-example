@@ -1,36 +1,40 @@
 ## react-formik
 
-Latihan membuat form validation mengugunakan React, Formik dan Yup.
+Latihan membuat form validation menggunakan React, Formik dan Yup.
+projek kecil ini dibangun menggunakan ViteJS, React, dan dipercantik menggunakan Tailwind CSS
 
 ### Instalasi
 
-Sebelum menginstall di lokal komputer, komputer-mu harus sudah terinstall Node.JS versi 10.xx dan NPM versi 5.xx
+Sebelum menjalankan di lokal komputer, komputer-mu harus sudah terinstall Node.JS versi 10.xx dan NPM versi 5.xx
 
-Step 1
+Ikuti langkah-langkah berikut untuk memulai
+
+1
 
 ```zsh
 git clone https://github.com/rizkimcitra/react-formik-example
 ```
 
-Step 2
+2
 
 ```zsh
 cd react-formik-example
 ```
 
-step 3
+3
 
 ```zsh
 npm install
 ```
 
-Step 4
+4
 
 ```zsh
 npm run dev
 ```
 
-aplikasi akan berjalan pada port 3000, buka port pada browser, maka aplikasi akan berjalan dilokal komputer-mu.
+5 - aplikasi akan berjalan pada port 3000, buka port pada browser, maka aplikasi akan berjalan dilokal komputer-mu.
+atau salin teks dibawah ini
 
 ```zsh
 http://localhost:3000/
