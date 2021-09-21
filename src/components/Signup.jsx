@@ -44,7 +44,7 @@ export default function Signup() {
         {(formik) => (
           // create the form tag manually? no, but instead, use `Form` fn from formik so formik can handle what's happen!
           <Form className={classes.form}>
-            <h5 className={classes.formHeading}>Sign Up to Miawu Hub</h5>
+            <h5 className={classes.formHeading}>Sign Up to Miaw Hub</h5>
 
             {
               // after we grab the item from inputs that are exported from @utils/Signup we mapped it here
